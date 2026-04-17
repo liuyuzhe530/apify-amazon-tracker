@@ -1,0 +1,23 @@
+{
+  "title": "Amazon Price Tracker Input",
+  "type": "object",
+  "properties": {
+    "searchQuery": {
+      "title": "Search Query",
+      "type": "string",
+      "description": "Search keyword to find products on Amazon"
+    },
+    "asinList": {
+      "title": "ASIN List",
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of Amazon ASINs to track (e.g., B09V3KXJPB)"
+    },
+    "maxProducts": {
+      "title": "Max Products",
+      "type": "integer",
+      "default": 20,
+      "description": "Maximum number of products to scrape from search results"
+    }
+  }
+}
