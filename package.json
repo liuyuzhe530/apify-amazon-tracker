@@ -1,0 +1,13 @@
+{
+  "name": "amazon-price-tracker",
+  "version": "1.0.0",
+  "description": "Scrape Amazon product prices, ratings, and rankings",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.1.10",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
